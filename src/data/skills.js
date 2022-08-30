@@ -10,14 +10,13 @@ export const frontend = [
 
 export const backend = [
   "Node.JS",
-  "Express",
+  "Express.JS",
   "RESTful APIs",
   "MySQL & PostgreSQL",
   "MongoDB",
-  "Mongoose.JS",
   "SQL",
-  "Sequelize",
-  "JWT",
+  "Mongoose.JS ODM",
+  "Sequelize ORM",
 ];
 
 export const cloud = [
@@ -32,13 +31,11 @@ export const cloud = [
 ];
 
 export const miscellaneous = [
-    "Github",
-    "Gitlabs",
-    "Git",
-    "JEST",
-    "Testing Library",
-    "Greensock GSAP",
-    "Charts.js",
-    "Google Maps API",
-
+  "Github, GitLabs",
+  "Git",
+  "JEST, Testing Library",
+  "Greensock GSAP",
+  "Charts.js",
+  "Google Maps API",
+  "JWT, Passport",
 ];
