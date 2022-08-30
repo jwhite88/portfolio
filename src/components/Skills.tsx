@@ -25,13 +25,13 @@ function Skills() {
         let frontendText = document.querySelectorAll(".frontend-class");
         let frontendGsap = gsap.utils.toArray(".frontend-class");
 
-        console.log("skillSet:", skillSet);
-        console.log("scroller.current!.scrollWidth", scroller.current!.scrollWidth);
-        console.log("scroller.current!.offsetWidth:", scroller.current!.offsetWidth);
-        console.log(
-            "document.documentElement.clientWeight",
-            document.documentElement.clientWidth
-        );
+        // console.log("skillSet:", skillSet);
+        // console.log("scroller.current!.scrollWidth", scroller.current!.scrollWidth);
+        // console.log("scroller.current!.offsetWidth:", scroller.current!.offsetWidth);
+        // console.log(
+        //     "document.documentElement.clientWeight",
+        //     document.documentElement.clientWidth
+        // );
 
         let to = gsTimeline.to(skillSet, {
             // xPercent: () =>

@@ -11,7 +11,6 @@ function About() {
     const { gsTimeline } = useContext(TimelineGS);
 
     useLayoutEffect(() => {
-        console.log("gsTimeline: ", gsTimeline);
 
        let aboutTimeline = gsap.timeline({
             scrollTrigger: {
