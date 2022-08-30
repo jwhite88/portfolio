@@ -71,12 +71,12 @@ function Skills() {
                 className='skill-set w-[100vw] h-[100vh] bg-tinygreen-800  ns-horizontal-section__item"'
             >
                 <div className="front-end ">
-                    <h3 className="py-4 text-6xl">Frontend Skills</h3>
+                    <h3 className="pt-4 text-6xl">Frontend Skills</h3>
                     <div className="skills-list w-5/12 rounded-md border-slate-200 bg-slate-500 mx-auto text-left bg-gradient-to-r from-gray-500 from to-slate-500">
-                        <ul className="text-left pl-4 py-4 text-4xl">
+                        <ul className="text-left pl-4 py-4 text-4xl relative">
                             {frontendData && frontendData.map((data, idx) => {
                                 return (
-                                    <li className="frontend-class p-2" key={idx}><FontAwesomeIcon className="inline-block pr-2 text-[1.3rem]" icon={faCode} />{data}</li>
+                                    <li className="frontend-class py-2 max-h-20" key={idx}><FontAwesomeIcon className="inline-block px-1 text-[1.3rem] border-2 rounded-md bg-offpurple-100" icon={faCode} /><span className="block ml-2 pl-6 py-1 w-[32rem] bg-offpurple-400 rounded-md relative bottom-4 left-4 -z-10">{data}</span></li>
                                 )
                             })}
                         </ul>
@@ -88,13 +88,13 @@ function Skills() {
                 className='skill-set w-[100vw] h-[100vh] bg-tinygreen-700 ns-horizontal-section__item"'
             >
                 <div className="back-end">
-                    <h3 className="py-4 text-6xl">Backend Skills</h3>
+                    <h3 className="pt-4 text-6xl">Backend Skills</h3>
                     <div className="skills-list w-5/12 rounded-md border-slate-200 bg-slate-500 mx-auto text-left bg-gradient-to-r from-gray-500 from to-slate-500">
-                        <ul className="text-left pl-4 py-4 text-4xl">{backendData && backendData.map((data, idx) => {
+                        <ul className="text-left pl-4 py-4 text-4xl relative">{backendData && backendData.map((data, idx) => {
                             return (
                                 <>
                                    
-                                    <li className="backend-class p-2" key={idx}><FontAwesomeIcon className="inline-block pr-2 text-[1.3rem]" icon={faServer} />{data}</li>
+                                    <li className="backend-class p-2 max-h-20" key={idx}><FontAwesomeIcon className="inline-block px-1 text-[1.3rem] border-2 rounded-md bg-offpurple-100" icon={faServer} /><span className="block ml-2 pl-6 py-1 w-[32rem] bg-offpurple-400 rounded-md relative bottom-4 left-4 -z-10">{data}</span></li>
                                    
                                 </>
                             )
@@ -107,11 +107,11 @@ function Skills() {
                 className='skill-set w-[100vw] h-[100vh] bg-tinygreen-800 ns-horizontal-section__item"'
             >
                 <div className="cloud-end">
-                    <h3 className="py-4 text-6xl">Cloud Skills</h3>
+                    <h3 className="pt-4 text-6xl">Cloud Skills</h3>
                     <div className="skills-list w-5/12 rounded-md border-slate-200 bg-slate-500 mx-auto text-left bg-gradient-to-r from-gray-500 from to-slate-500">
-                        <ul className="text-left pl-4 py-4 text-4xl">{cloudData && cloudData.map((data, idx) => {
+                        <ul className="text-left pl-4 py-4 text-4xl relative">{cloudData && cloudData.map((data, idx) => {
                             return (
-                                <li className="cloud-class p-2" key={idx}><FontAwesomeIcon className="inline-block pr-2 text-[1.3rem]" icon={faCloud} />{data}</li>
+                                <li className="cloud-class p-2 max-h-20" key={idx}><FontAwesomeIcon className="inline-block px-1 text-[1.3rem] border-2 rounded-md bg-offpurple-100" icon={faCloud} /><span className="block ml-2 pl-6 py-1 w-[32rem] bg-offpurple-400 rounded-md relative bottom-4 left-4 -z-10">{data}</span></li>
                             )
                         })}</ul>
                     </div>
@@ -122,11 +122,11 @@ function Skills() {
                 className='skill-set w-[100vw] h-[100vh] bg-tinygreen-700 ns-horizontal-section__item"'
             >
                 <div className="miscellaneous-end">
-                    <h3 className="py-4 text-6xl">Miscellaneous Skills</h3>
+                    <h3 className="pt-4 text-6xl">Miscellaneous Skills</h3>
                     <div className="skills-list w-5/12 rounded-md border-slate-200 bg-slate-500 mx-auto text-left bg-gradient-to-r from-gray-500 from to-slate-500">
-                        <ul className="text-left pl-4 py-4 text-4xl">{miscellaneousData && miscellaneousData.map((data, idx) => {
+                        <ul className="text-left pl-4 py-4 text-4xl relative">{miscellaneousData && miscellaneousData.map((data, idx) => {
                             return (
-                                <li className="miscellaneous-class p-2" key={idx}><FontAwesomeIcon className="inline-block pr-2 text-[1.3rem]" icon={faGears} />{data}</li>
+                                <li className="miscellaneous-class p-2 max-h-20" key={idx}><FontAwesomeIcon className="inline-block px-1 text-[1.3rem] border-2 rounded-md bg-offpurple-100" icon={faGears} /><span className="block ml-2 pl-6 py-1 w-[32rem] bg-offpurple-400 rounded-md relative bottom-4 left-4 -z-10">{data}</span></li>
                             )
                         })}</ul>
                     </div>

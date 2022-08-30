@@ -9,17 +9,15 @@ export const frontend = [
 ];
 
 export const backend = [
-    "Node.JS",
-    "Express",
-    "MySQL",
-    "PostgreSQL",
-    "MongoDB",
-    "Mongoose.JS",
-    "Sequelize",
-    "RESTful APIs",
-    "JWT",
-    "Passport"
-
+  "Node.JS",
+  "Express",
+  "RESTful APIs",
+  "MySQL & PostgreSQL",
+  "MongoDB",
+  "Mongoose.JS",
+  "SQL",
+  "Sequelize",
+  "JWT",
 ];
 
 export const cloud = [
