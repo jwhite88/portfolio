@@ -18,8 +18,13 @@ function Projects() {
                                     <div className="project-img">
                                         <img className='aspect-auto object-cover p-3' src={require(`../assets/images/${project.image}.png`)} alt="project1" />
                                     </div>
-                                    <div className="project-url">
-                                        <a href={project.demoLink}>Live Demo</a>
+                                    <div className="flex flex-nowrap justify-between px-3">
+                                        <div className="project-url hover:scale-110 ease-out duration-300">
+                                            <a href={project.demoLink}>Live Demo</a>
+                                        </div>
+                                        <div className="project-url hover:scale-110 ease-out duration-300">
+                                            <a href={project.demoLink} >Github Link</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
